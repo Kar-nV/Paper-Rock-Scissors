@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+/* Estilos gerais */
+
+body {
+  font-size: 100%;
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6dd5ed, #2193b0);
+  
+    animation: bg-animation 15s infinite alternate;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes bg-animation {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 36px;
+}
+
+/* Estilos do cabeçalho */
+
+header {
+  background-color: #12181a;
+  color: white;
+  padding: 0px;
+  border-radius: 30;
+  margin: 72px;
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Estilos do conteúdo principal */
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.button-group {
+  display: flex;
+  align-items: flex-end;
+
+  justify-content: space-around;
+  margin-bottom: 65px;
+}
+
+button {
+  background-color: #3208c8;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #27a7c1;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+/* Estilos do rodapé */
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  font-size: 14px;
+}
